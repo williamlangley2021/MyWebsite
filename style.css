@@ -1,0 +1,109 @@
+<style>
+  main {
+    padding-left: 110px;
+  }
+
+  body {
+    background: lightgreen;
+    color: darkgreen;
+    margin: 0;
+    padding-bottom: 25px;
+    padding-top: 25px;
+
+  }
+
+  h1 {
+    color: darkgreen;
+    float: left;
+    margin-left: 10px;
+  }
+
+  header {
+    background: yellow;
+    margin: 0;
+    margin-top: 0;
+  }
+
+  nav {
+    color: darkgreen;
+    float: right;
+  }
+
+  h3 {
+    color: #000000;
+  }
+
+  header::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 45px;
+    padding-top: 30px;
+    position: relative;
+  }
+
+  nav a {
+    color:  darkgreen;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 16px;
+   }
+
+  nav a:hover {
+    color:  darkgreen;
+  }
+
+  nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: darkgreen;
+    position: absolute;
+    width: 0%;
+    top: 0;
+    transition: all ease-in-out 250ms;
+  }
+
+  nav a:hover::before {
+    width:100%;
+  }
+
+  header img {
+    float: left;
+    padding-left: 100px;
+    padding-top: 12.5px;
+  }
+
+  img {
+    padding-top: 15px;
+    padding-left: 100px;
+  }
+
+  p {
+    padding-left: 130px;
+  }
+
+  h4 {
+    color: #000000;
+    padding-left: 120px;
+  }
+  article li {
+    padding-left: 130px;
+  }
+
+   h3 {
+    padding-left: 100px;
+  }
+
+
+</style>
