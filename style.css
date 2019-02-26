@@ -1,11 +1,9 @@
-<style>
   body {
     background: lightgreen;
     color: darkgreen;
     margin: 0;
     padding-bottom: 25px;
     padding-top: 25px;
-
   }
   main {
     padding-left: 110px;
@@ -85,4 +83,3 @@
   p {
     padding-left: 130px;
   }
-</style>
