@@ -83,3 +83,7 @@
   p {
     padding-left: 130px;
   }
+.info{
+  float:right;
+  padding-left: -100px;
+}
